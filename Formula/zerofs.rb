@@ -6,6 +6,7 @@ class Zerofs < Formula
   license "AGPL-3.0-only"
   head "https://github.com/Barre/ZeroFS.git", branch: "main"
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
 
   def install
